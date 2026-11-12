@@ -1,10 +1,22 @@
 # Harness Engineering: Moving From Hopeful Instructions to Enforced Control
 
+By Nicole Koenigstein
+
 Companion repo for my ACM TechTalk. It holds:
 
 - **the demo app** from the talk
 - **the slides**
 - **a cheatsheet** of the harness components and what each one enforces
+
+## Go deeper
+
+This talk is a short cut through material I cover in full elsewhere:
+
+| | |
+|---|---|
+| 📕 **Book** | [**Harness Engineering**](https://learning.oreilly.com/library/view/harness-engineering/0642572422783/) (O'Reilly). The scenes in this repo follow its chapters on harness components and skills. |
+| 📘 **Book** | [**AI Agents: The Definitive Guide**](https://learning.oreilly.com/library/view/ai-agents-the/0642572247775/) (O'Reilly). |
+| 🎓 **Live course** | [**Harness Engineering intensive**](https://www.oreilly.com/live/intensive-harness-engineering.html) (O'Reilly). Build and ablate a harness hands-on. |
 
 ## What the app shows
 
@@ -77,11 +89,3 @@ and "Reset all runs" to clear the damage counter.
 - `harness/scenes.py`, `harness/walkthrough.py`, `harness/context_sims.py`: scene definitions.
 - `recordings/`: the recorded model runs. To record your own, put an
   `OPENROUTER_API_KEY` in a `.env` file and run `python record.py`.
-
-## Go deeper
-
-- Book: [Harness Engineering](https://learning.oreilly.com/library/view/harness-engineering/0642572422783/) (O'Reilly). The scenes here follow its chapters on harness components and skills.
-- Book: [AI Agents: The Definitive Guide](https://learning.oreilly.com/library/view/ai-agents-the/0642572247775/) (O'Reilly).
-- Live course: [Harness Engineering intensive](https://www.oreilly.com/live/intensive-harness-engineering.html) (O'Reilly).
-
-Nicole Koenigstein
